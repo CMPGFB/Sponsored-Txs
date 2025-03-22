@@ -130,7 +130,7 @@ await forwarder.fundSponsorship({ value: ethers.utils.parseEther("10") });
 This deposits 10 ETH, increasing sponsorshipBalance.
 
 2. Authorizing Relayers
-3. 
+
 Step 1: Schedule a relayer authorization change:
 
 ```bash
@@ -192,4 +192,5 @@ This project is licensed under the MIT License.
 ## Questions or Issues
 If you encounter any issues or have suggestions, please open an issue or contact me.
 
-***Always review and test security implications, especially before deploying on mainnet. The current iteration of this has not been audited, use at your own risk*** 
+***Always review and test security implications, especially before deploying on mainnet.***
+***The current iteration of this has not been audited, use at your own risk*** 
