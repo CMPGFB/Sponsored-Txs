@@ -117,7 +117,7 @@ console.log("Upgraded to V2 at:", forwarderV2.address);
 
 ## 4. Initialization
 
-### The initialize() function is automatically called during proxy deployment if using the Hardhat Upgrades plugin. Otherwise, ensure you call initialize() once before any other interactions.
+The initialize() function is automatically called during proxy deployment if using the Hardhat Upgrades plugin. Otherwise, ensure you call initialize() once before any other interactions.
 
 ### Usage
 
